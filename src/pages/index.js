@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react"
 
-import Layout from '../components/Layout'
+import Layout from "../components/Layout"
+import Header from "../components/Header"
+import HeroBanner from "../components/HeroBanner"
 
 const IndexPage = () => (
-  <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-  </Layout>
+    <Layout>
+        <Header />
+        <HeroBanner />
+    </Layout>
 )
 
 export default IndexPage
