@@ -2,6 +2,7 @@ import React from "react"
 
 const About = () => (
     <div>
+        <h1>About Us</h1>
         <p>
             Hi, I'm J​udy! I'm a wife and proud mother of two kids living in
             Ottawa, Ontario. I originally got bit by the sewing bug from my
