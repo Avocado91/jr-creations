@@ -7,6 +7,7 @@ import Products from "../components/Products"
 import About from "../components/About"
 import Upcoming from "../components/Upcoming"
 import Contact from "../components/Contact"
+import Footer from "../components/Footer"
 
 const IndexPage = () => (
     <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => (
         <About />
         <Upcoming />
         <Contact />
+        <Footer />
     </Layout>
 )
 
