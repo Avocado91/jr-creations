@@ -6,6 +6,7 @@ import HeroBanner from "../components/HeroBanner"
 import Products from "../components/Products"
 import About from "../components/About"
 import Upcoming from "../components/Upcoming"
+import Contact from "../components/Contact"
 
 const IndexPage = () => (
     <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
         <Products />
         <About />
         <Upcoming />
+        <Contact />
     </Layout>
 )
 
