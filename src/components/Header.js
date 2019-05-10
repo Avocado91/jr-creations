@@ -1,12 +1,15 @@
 import React from "react"
 
+import Logo from "../images/logo.png"
+
 const Header = () => (
-    <div>
-        <img src="#" alt="JRCreations logo" />
-        <a>Home</a>
-        <a>Products</a>
-        <a>About Us</a>
-        <a>Contact</a>
+    <div className="header">
+        <img src={Logo} alt="JR Creations logo" />
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Upcoming Shows</a>
+        <a href="#">Contact</a>
     </div>
 )
 

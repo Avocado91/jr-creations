@@ -9,6 +9,8 @@ import Upcoming from "../components/Upcoming"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 
+import "../styles/main.scss"
+
 const IndexPage = () => (
     <Layout>
         <Header />
