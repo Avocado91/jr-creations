@@ -1,1 +1,6 @@
-@import "./layout/header";
+@import "./utils/base";
+@import "./utils/variables";
+@import "./components/_wrapper";
+@import "./components/_layout";
+@import "./components/_header";
+@import "./components/_nav";
