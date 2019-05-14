@@ -1,0 +1,40 @@
+.heroBanner {
+  background: url(./../images/hero-banner-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroBanner__overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.heroBanner__container {
+  width: 900px;
+  margin: auto;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.heroBanner__logo {
+  width: 500px;
+}
+
+.heroBanner__text {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.heroBanner__text--cursive {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+
+.heroBanner__icon {
+  color: $purple;
+  font-size: 5rem;
+  transition: all 0.3s ease-out;
+}
+
+.heroBanner__icon:hover {
+  color: #fff;
+}
