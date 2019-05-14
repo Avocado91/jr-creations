@@ -20,9 +20,6 @@ const HeroBanner = () => (
                     Take a look around and keep JR Creations in mind for all
                     your crafting ​needs.
                 </p>
-                <a href="#">
-                    <i className="heroBanner__icon fas fa-chevron-down" />
-                </a>
             </div>
         </div>
     </div>
