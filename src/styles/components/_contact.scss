@@ -1,0 +1,52 @@
+.contact {
+  background: $purple;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.contact__title {
+  margin: 0;
+}
+
+.contact__field-container {
+  text-align: left;
+  width: 400px;
+  margin: auto;
+  font-size: 1.8rem;
+}
+
+.contact__input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  color: #333;
+  border-radius: 8px;
+}
+
+.contact__input:active,
+.contact__input:focus {
+  outline: none;
+}
+
+.contact__label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.contact__button {
+  border: none;
+  background: #fff;
+  color: $purple;
+  font-size: 2rem;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.contact__button:active,
+.contact__button:focus {
+  outline: none;
+}
